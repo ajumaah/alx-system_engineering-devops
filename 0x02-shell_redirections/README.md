@@ -41,3 +41,9 @@ You’re not allowed to use sed
 cat iacta |head -3 |tail -1 or
 head -n 3 iacta|tail -1 
 will give the same output.
+
+7. It is a good file that cuts iron without making a noise
+Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+echo "Best School">  \\\*\\\\"'\"Best School\"\\'"\\\\\*
+
+\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)

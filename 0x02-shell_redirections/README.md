@@ -29,4 +29,8 @@ less  /etc/passwd /etc/host
 
 4. Last lines of a file
 Display the last 10 lines of /etc/passwd
-ls -lt | tail
+ls -lt | tail /etc/passwd
+
+5. I'd prefer the first ones actually
+Display the first 10 lines of /etc/passwd
+ls -lt | head /etc/passwd

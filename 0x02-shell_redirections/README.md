@@ -34,3 +34,10 @@ ls -lt | tail /etc/passwd
 5. I'd prefer the first ones actually
 Display the first 10 lines of /etc/passwd
 ls -lt | head /etc/passwd
+
+6. Line #2
+Write a script that displays the third line of the file iactaThe file iacta will be in the working directory
+You’re not allowed to use sed
+cat iacta |head -3 |tail -1 or
+head -n 3 iacta|tail -1 
+will give the same output.

@@ -13,4 +13,8 @@ You are not allowed to use sed or awk
 The tasks are as below
 0. Hello World
 Write a script that prints “Hello, World”, followed by a new line to the standard output. This is the first task and 0-hello_world is the file that contains our script.
+ echo "Hello, World"
 
+1. Confused smiley
+Write a script that displays a confused smiley "(Ôo)'.
+echo "\"(Ôo)'"

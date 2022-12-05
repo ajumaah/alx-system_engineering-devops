@@ -21,4 +21,4 @@ echo "\"(Ôo)'"
 
 2. Let's display a file
 Display the content of the /etc/passwd file
-cat 2-hellofile
+ls -la /etc/passwd

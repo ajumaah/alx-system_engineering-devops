@@ -53,4 +53,7 @@ Write a script that writes into the file ls_cwd_content the result of the comman
 ls -la >ls_cwd_content
 9. Duplicate last line
 Write a script that duplicates the last line of the file iacta
-cp iacta|tail -n 1 >>iacta
+tail -n 1 iacta  >>iacta
+10. No more javascript
+Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+rm .js*

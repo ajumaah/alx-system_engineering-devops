@@ -60,3 +60,10 @@ find . -type f -name "*.js" -rm
 
 11. Don't just count your directories, make your directories count
 Write a script that counts the number of directories and sub-directories in the current directory.
+find . -type d -not -name '.' |wc -l
+12. What’s new
+Create a script that displays the 10 newest files in the current directory.
+Requirements:
+One file per line
+Sorted from the newest to the oldest
+ls -t1|head -n 10

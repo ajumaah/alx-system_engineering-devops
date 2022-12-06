@@ -75,3 +75,7 @@ Output format: One line, one word
 Words should be sorted
 
 ls -la|sort|uniq -u
+
+14. It must be in that file
+Display lines containing the pattern “root” from the file /etc/passwd
+grep -i 'root' /etc/passwd #we use grep to match root with option -i to ignore-case

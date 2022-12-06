@@ -67,3 +67,11 @@ Requirements:
 One file per line
 Sorted from the newest to the oldest
 ls -t1|head -n 10
+
+12-newest_files
+Create a script that takes a list of words as input and prints only words that appear exactly once.
+Input format: One line, one word
+Output format: One line, one word
+Words should be sorted
+
+ls -la|sort|uniq -u

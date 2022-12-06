@@ -79,8 +79,12 @@ ls -la|sort|uniq -u
 14. It must be in that file
 Display lines containing the pattern “root” from the file /etc/passwd
 grep -i 'root' /etc/passwd #we use grep to match root with option -i to ignore-case
-
+grep -i "root" /etc/passwd
 15. Count that word
 
 Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 grep -c -i "bin" /etc/passwd
+16. What's next?
+Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+grep -A 3 -i "root" /etc/passwd
